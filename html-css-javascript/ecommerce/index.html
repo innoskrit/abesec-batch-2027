@@ -1,165 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce Web App</title>
-    <link href="./styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">E-commerce App</div>
 
-      <div>
-        <nav>
-          <ul class="menu">
-            <li class="menu-item"><a href="#">Home</a></li>
-            <li class="menu-item"><a href="#">Men</a></li>
-            <li class="menu-item"><a href="#">Women</a></li>
-            <li class="menu-item"><a href="#">Kids</a></li>
-            <li class="menu-item"><a href="#">Accessories</a></li>
-            <li class="menu-item"><a href="#">Sale</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>ECommerce UI</h1>
+    </div>
+
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-right">
+      <input type="search" placeholder="Search" class="search-bar">
+      <button class="login-btn">Login</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <img src="images/hero.jpeg" alt="">
+    </div>
+  </section>
+
+  <section class="categories" id="categories">
+    <h2>Shop By Categories</h2>
+
+    <div class="categories-grid">
+      <div class="category">
+        <img src="images/menstyle.avif" alt="">
+        <h3>Men</h3>
       </div>
 
-      <div class="header-right">
-        <input type="search" placeholder="Search for products..." />
-        <button class="login-btn">Login</button>
+      <div class="category">
+        <img src="images/women.png" alt="">
+        <h3>Women</h3>
       </div>
-    </header>
 
-    <section class="hero">
-      <div>
-        <img class="hero-banner" src="/images/banner1.avif" alt="Sale" />
+      <div class="category">
+        <img src="images/kids.jpeg" alt="">
+        <h3>Kids</h3>
       </div>
-    </section>
 
-    <section class="categories">
-      <h1>Shop by Category</h1>
-      <div class="categories-grid">
-        <div class="category">
-          <img src="/images/menstyle.avif" alt="" />
-          <h3>Men</h3>
-        </div>
+      <div class="category">
+        <img src="images/accessories.jpg" alt="">
+        <h3>Accessories</h3>
+      </div>
+    </div>
+  </section>
 
-        <div class="category">
-          <img src="/images/womenstyle.avif" alt="" />
-          <h3>Woman</h3>
-        </div>
-
-        <div class="category">
-          <img src="/images/kidsstyle.avif" alt="" />
-          <h3>Kids</h3>
-        </div>
-
-        <div class="category">
-          <img src="/images/homeandliving.avif" alt="" />
-          <h3>Home and Living</h3>
-        </div>
-
-        <div class="category">
-          <img src="/images/beauty.avif" alt="" />
-          <h3>Beauty</h3>
+  <section class="products" id="trending">
+    <h2>Trending Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="images/product1.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
         </div>
       </div>
-    </section>
 
-    <section class="products">
-      <h1>Trending Products</h1>
-      <div class="products-grid">
-        <div class="product-card">
-          <img src="/images/product1.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product2.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product3.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product4.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product5.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product6.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product7.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product8.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product9.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="/images/product10.avif" alt="" />
-          <h3>Sports Suit</h3>
-          <div class="product-info">
-            <p>599/-</p>
-            <button>Add to Cart</button>
-          </div>
+      <div class="product-card">
+        <img src="images/product2.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
         </div>
       </div>
-    </section>
 
-    <footer></footer>
-  </body>
+      <div class="product-card">
+        <img src="images/product3.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product4.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product5.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product6.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product7.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product8.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product9.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product10.avif" alt="" />
+        <h3>Sports Suit</h3>
+        <div class="product-info">
+          <p>Rs 599</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
 </html>
